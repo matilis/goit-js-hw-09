@@ -16,3 +16,34 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.value {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+input {
+  max-width: 180px;
+  min-height: 30px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+button {
+  height: 28px;
+}
