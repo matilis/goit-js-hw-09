@@ -20,7 +20,7 @@ function createPromise(position, delay) {
 
 btnEl.addEventListener('click', event => {
   event.preventDefault();
-  for (i = 0; i < +amountEl.value; i++) {
+  for (let i = 0; i < +amountEl.value; i++) {
     createPromise(i + 1, +firstDelayEl.value + i * +delayStepEl.value)
       .then(({ position, delay }) => {
         Notiflix.Notify.success(
